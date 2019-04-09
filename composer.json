@@ -1,0 +1,27 @@
+{
+    "name": "yjx/easy-apns",
+    "description": "基于HTTP/2的APNs Provider, 应用多路复用, 实现高性能的苹果消息推送.",
+    "keywords": ["apns", "http2", "apple", "notification", "push"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YouJiaXing",
+            "email": "287009007@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EasyAPNs\\": "src/"
+        }
+    },
+    "require": {
+        "psr/log": "^1.1.0",
+        "ext-curl": "*",
+        "php": "7.*"
+    },
+    "require-dev": {
+        "monolog/monolog": "^1.24.0",
+        "symfony/var-dumper": "*"
+    }
+}
