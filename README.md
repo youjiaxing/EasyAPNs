@@ -28,9 +28,19 @@ curl -I https://nghttp2.org/
 curl --http2 -I https://nghttp2.org/
 ```
 
+# Packagist
+https://packagist.org/packages/yjx/easy-apns
+
 # 示例
 - [简单的消息推送](https://github.com/youjiaxing/EasyAPNs/blob/HEAD/samples/simple_push.php)
 - [从 redis 读取消息列表的推送服务](https://github.com/youjiaxing/EasyAPNs/blob/HEAD/samples/server.php)
+
+
+
+# 安装
+```sh
+composer require yjx/easy-apns:dev-master
+```
 
 # 简单使用
 ```php
